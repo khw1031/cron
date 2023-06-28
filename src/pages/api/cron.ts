@@ -3,6 +3,7 @@ export const config = {
 };
 
 export default () => {
+  
   fetch(
     "https://wh.jandi.com/connect-api/webhook/24103837/8b387069bc2751bceb53d12c9a9b122c",
     {
