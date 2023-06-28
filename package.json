@@ -1,4 +1,10 @@
 {
+	"name": "crons",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start"
+	},
 	"dependencies": {
 		"axios": "^1.4.0",
 		"next": "^13.4.7",
@@ -6,6 +12,8 @@
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
+		"@types/node": "^20.3.2",
+		"@types/react": "^18.2.14",
 		"typescript": "^5.1.5"
 	}
 }
